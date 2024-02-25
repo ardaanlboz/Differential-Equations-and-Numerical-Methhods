@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
+import os
 
 def solve_first_order_diff_eq(diff_eq, t_span, y0, constants={}):
 

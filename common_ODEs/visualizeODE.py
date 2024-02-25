@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 def visualizeODE(field_function, x_range, y_range, num_points=20, title='Direction Field'):
     x_values = np.linspace(x_range[0], x_range[1], num_points)
